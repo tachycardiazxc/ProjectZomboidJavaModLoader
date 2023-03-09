@@ -1,10 +1,8 @@
-#include <windows.h>
-#include <jni.h>
-#include <jvmti.h>
 #include <unistd.h>
-#include <pthread.h>
-#include "utils.h"
-#include "jvmInteractions.h"
+#include "directVMInteractions.h"
+#include "insideVMInteractions.h"
+#include "jvmThreadInteractions.h"
+#include "exitCodeUtils.h"
 
 int main() {
     chdir("..\\..");

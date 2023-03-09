@@ -1,0 +1,7 @@
+#ifndef MODLOADER_EXITCODEUTILS_H
+#define MODLOADER_EXITCODEUTILS_H
+
+extern const int OK_EXIT;
+extern const int ERROR_EXIT;
+
+#endif //MODLOADER_EXITCODEUTILS_H
