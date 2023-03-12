@@ -30,7 +30,7 @@ void createVM(JNI_CreateJavaVM_func createJavaVm_func, JavaVM **jvm, JNIEnv **en
     options[0].optionString = "-Djava.compiler=JIT";
     options[1].optionString = formClassPath();
     options[2].optionString = "-Djava.library.path="
-                              "D:\\IT\\Java\\PetProjects\\javaAgentTest\\out\\production\\javaAgentTest\\com\\tachycardiazxc\\native;.";
+                              "D:\\IT\\Java\\PetProjects\\javaAgentTest\\";
     options[3].optionString = "-verbose:jni";
     options[4].optionString = "-verbose:gc";
     options[5].optionString = "-verbose:class";
