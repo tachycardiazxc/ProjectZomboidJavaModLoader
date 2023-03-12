@@ -26,8 +26,8 @@ Install my-project with npm
 
 ## Roadmap
 
-- .java files compilator to .class files
-- .java to C compilator to provide high performance
+- .java files compiler to .class files
+- .java to C compiler to provide high performance
 - debugging features and support
 - API to provide ability to interact with PZ code without spending a huge amount of time understanding the internals of PZ
 - Clear documentation for loader internals and future API 
