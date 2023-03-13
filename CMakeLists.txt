@@ -10,7 +10,7 @@ add_executable(
         utils/jvmPropertiesCreationUtils.c utils/jvmPropertiesCreationUtils.h
         utils/jvmPropertiesCreationConstantUtils.h utils/exitCodeUtils.c utils/exitCodeUtils.h
         utils/checkOnErrorsInVM.c utils/checkOnErrorsInVM.h
-        utils/compilerUtils/vmOpcodes.h
+        utils/compilerUtils/vmOpcodes.h utils/compilerUtils/byteCodeStructures.h
         jvm/directVMInteractions.c jvm/directVMInteractions.h
         jvm/jvmThreadInteractions.c jvm/jvmThreadInteractions.h
         jvm/insideVMInteractions.c jvm/insideVMInteractions.c

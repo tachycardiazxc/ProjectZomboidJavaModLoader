@@ -3,6 +3,7 @@
 #include "insideVMInteractions.h"
 #include "jvmThreadInteractions.h"
 #include "exitCodeUtils.h"
+#include "bodyRewriter.h"
 
 int main() {
     chdir("..\\..");
@@ -43,7 +44,9 @@ int main() {
     getClassByName(&env, &jvmti, &systemClass, "java/lang/System");
     set_working_directory(&env, "C:\\Program Files (x86)\\Steam\\steamapps\\common\\ProjectZomboid", &systemClass);
 
-    (*env)->CallStaticVoidMethod(env, jclazz, jmethod, stringArray);
+    rewriteBody(&env, &jvmti, &jclazz);
+
+//    (*env)->CallStaticVoidMethod(env, jclazz, jmethod, stringArray);
 
     /* END OF JAVA EXECUTION */
 
