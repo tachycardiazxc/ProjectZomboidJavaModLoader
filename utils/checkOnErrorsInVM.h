@@ -1,0 +1,8 @@
+#ifndef MODLOADER_CHECKONERRORSINVM_H
+#define MODLOADER_CHECKONERRORSINVM_H
+
+#include <jni.h>
+
+void checkOnErrors(JNIEnv **env);
+
+#endif //MODLOADER_CHECKONERRORSINVM_H
